@@ -1,0 +1,98 @@
+{
+    "users": [
+        {
+            "id": "1",
+            "name": "Fido",
+            "bio": "I'm a dog!",
+            "hometown": "Dogtown",
+            "breed": "Golden Retriever",
+            "avatar": "https://placedog.net/400/222?id=43"
+        },
+        {
+            "id": "2",
+            "name": "Bob",
+            "bio": "I am a good",
+            "hometown": "San Francisco",
+            "breed": "Good Boy",
+            "avatar": "https://placedog.net/400/289?id=65"
+        },
+        {
+            "id": "3",
+            "name": "Alice",
+            "bio": "I am a good",
+            "hometown": "Seattle",
+            "breed": "Labrador",
+            "avatar": "https://placedog.net/400/506?id=220"
+        },
+        {
+            "id": "4",
+            "name": "Charlie",
+            "bio": "I am a good",
+            "hometown": "Phoenix",
+            "breed": "Poodle",
+            "avatar": "https://placedog.net/400/171?id=25"
+        }
+    ],
+    "posts": [
+        {
+            "id": "1",
+            "authorId": "1",
+            "title": "Hello from England",
+            "content": "Hello world from Alice!",
+            "barks": 10,
+            "updatedAt": "2020-01-01T12:00:00Z",
+            "createdAt": "2020-01-01T12:00:00Z",
+            "comments": 2
+        },
+        {
+            "id": "2",
+            "authorId": "2",
+            "title": "Hello from Japan",
+            "content": "Another post, this time from Bob.",
+            "barks": 5,
+            "updatedAt": "2020-01-01T12:00:00Z",
+            "createdAt": "2020-01-01T12:00:00Z",
+            "comments": 1
+        },
+        {
+            "id": "3",
+            "authorId": "2",
+            "title": "Hello from Rome!",
+            "content": "Another post, this time from Bob.",
+            "barks": 5,
+            "updatedAt": "2020-01-01T12:00:00Z",
+            "createdAt": "2020-01-01T12:00:00Z",
+            "comments": 1
+        },
+        {
+            "id": "4",
+            "authorId": "4",
+            "title": "Hello from Egypt!",
+            "content": "This is a post from Charlie.",
+            "barks": 3,
+            "updatedAt": "2020-01-01T12:00:00Z",
+            "createdAt": "2020-01-01T12:00:00Z",
+            "comments": 5
+        },
+        {
+            "id": "5",
+            "authorId": "4",
+            "title": "Hello from Africa!",
+            "content": "This is a post from Charlie.",
+            "barks": 5,
+            "updatedAt": "2020-01-01T12:00:00Z",
+            "createdAt": "2020-01-01T12:00:00Z",
+            "comments": 0
+        },
+        {
+            "id": "6",
+            "authorId": "3",
+            "title": "Hello from New York, New York!",
+            "content": "This is a post from Alice.",
+            "barks": 3,
+            "updatedAt": "2020-01-01T12:00:00Z",
+            "createdAt": "2020-01-01T12:00:00Z",
+            "comments": 5
+        }
+    ]
+}
