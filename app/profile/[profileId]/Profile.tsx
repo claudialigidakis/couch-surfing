@@ -2,8 +2,7 @@ import tw from "tailwind-styled-components"
 import { getUserPosts } from "./actions"
 import { Post } from "@/app/components/Post"
 import Image from "next/image"
-import { StaticImport } from "next/dist/shared/lib/get-img-props"
-import { ReactElement, JSXElementConstructor, ReactNode, ReactPortal, AwaitedReactNode } from "react"
+import { ReactElement } from "react"
 import Link from "next/link"
 
 const ProfileContainer = tw.div`flex flex-col gap-3 px-3`
