@@ -34,7 +34,7 @@ export async function Profile({ user }: ProfileProps): Promise<ReactElement> {
             <Link href="/">Home</Link>
             <HeroContainer>
                 <HeroContent>
-                    <Image width="150" height="150" className="rounded-full object-cover" src={user.avatar} alt="Fido" />
+                    <Image width="150" height="150" className="rounded-full object-cover" src={user.avatar} alt={user.name} />
                     <ProfileTextContainer>
                         <ProfileName>{user.name}</ProfileName>
                         <ProfileDetail><Bold>Breed:</Bold> {user.breed}</ProfileDetail>

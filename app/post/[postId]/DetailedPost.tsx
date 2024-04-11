@@ -53,7 +53,7 @@ const PostPage = ({ post }: PostPageProps) => {
                         </AuthorInfo>
                     )
                 }
-                <IconButton onClick={incrementBarks} aria-label="Add bark">
+                <IconButton onClick={incrementBarks}>
                     <BoneIcon />  ({barks})
                 </IconButton>
             </div>

@@ -9,7 +9,7 @@ interface UserProfileProps {
 
 const UserProfile: React.FC<UserProfileProps> = ({ name, bio, image }) => {
     return (
-        <div className="user-profile">
+        <div>
             <Image src={image} alt={name} />
             <h1>{name}</h1>
             <p>{bio}</p>
