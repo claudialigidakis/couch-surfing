@@ -5,5 +5,5 @@ export const getDogProfile = async (userId: string) => {
 }
 
 export const getUserPosts = async (userId: string) => {
-    return seed.posts.filter((post: any) => post.authorId=== userId)
+    return seed.posts.filter((post: any) => post.authorId === userId)
 }
